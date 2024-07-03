@@ -1,0 +1,21 @@
+
+5月 13, 2024 09:54:35.18 NEW SESSION
+5月 13, 2024 09:54:35.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5月 13, 2024 17:25:46.21 NEW SESSION
+5月 13, 2024 17:25:46.22 Created TensorFlow Lite XNNPACK delegate for CPU.
+5月 13, 2024 17:26:31.09 [4040:4704:0513/172631.099:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:27:44.91 [4040:4704:0513/172744.910:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:28:29.95 [4040:4704:0513/172829.956:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:29:24.46 [4040:4704:0513/172924.468:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:30:09.50 [4040:4704:0513/173009.509:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:30:54.54 [4040:4704:0513/173054.545:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:32:01.86 [4040:4704:0513/173201.867:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:33:09.36 [4040:4704:0513/173309.364:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:34:08.38 [4040:4704:0513/173408.382:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:34:54.42 [4040:4704:0513/173454.426:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:35:39.47 [4040:4704:0513/173539.473:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:36:38.41 [4040:4704:0513/173638.412:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:37:23.45 [4040:4704:0513/173723.458:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:38:08.50 [4040:4704:0513/173808.506:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5月 13, 2024 17:39:09.84 [4040:4704:0513/173909.840:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2

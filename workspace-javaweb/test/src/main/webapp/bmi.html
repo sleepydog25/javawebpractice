@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+	<link rel="stylesheet" href="./css/buttons.css"> </link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My BMI</title>
+</head>
+<body style="padding: 15px">
+
+<!--     <form id="myForm" action="YOUR_SERVER_ENDPOINT" method="post">
+        <label for="height">Height (in centimeters):</label><br>
+        <input type="number" id="height" name="height" required><br><br>
+
+        <label for="weight">Weight (in kilograms):</label><br>
+        <input type="number" id="weight" name="weight" required><br><br>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>  -->
+
+    <h2>Enter your height, weight, and name</h2>
+
+	<!--using post to prevent information entraining in the url  -->
+    <form class="pure-form" action="http://localhost:8080/test/servlet/bmi" method = "post" target="result">
+    	<fieldset>
+    		<legend>BMI Calculator </legend>
+    		Name:<input type="text" id="userName" name="userName" placeholder="Please enter your name" required><p>
+    		Height:<input type="number" id="userHeight" name="userHeight" placeholder="Please enter your height in centimeter(30-500)" required min="30" max="500"><p>
+    		Weight:<input type="number" id="userWeight" name="userWeight" placeholder="Please enter your Weight in Kilograms(0-500)" required min="0" max="500"><p>
+    		<button type="reset" class="pure-button">Reset</button>
+    		<button type="submit" class="pure-button pure-button-primary">Submit</button>
+    		<a href = "/test/servlet/bmi" class="button-success pure-button">Store</a>
+    	</fieldset>
+    </form>
+    <!-- using iframe to display BMI calculation result-->
+    <!-- using frameborder ="0" to hide boarder, which embeded a brower in a brower. 
+    This may consume more client resource.  -->
+    <iframe id="result" name="result"  frameborder="0"></iframe>
+</body>
+</html>

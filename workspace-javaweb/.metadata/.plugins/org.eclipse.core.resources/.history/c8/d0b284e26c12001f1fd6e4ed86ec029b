@@ -1,0 +1,12 @@
+//定義一個非同步函數來加載 html 內容
+
+const loadHTML = async(url.containerId) => {
+	
+};
+
+//待 DOM 加載完成之後執行
+ document.addEventListener("DOMContentloaded",async() =>{
+	// 加上 await 關鍵字等待 loadHTML 函數完成才會進行下一個程序 
+	await loadHTML('user-form.html', 'user-form-container');
+	await loadHTML('user-list.html', 'user-list-container');
+ });

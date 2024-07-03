@@ -1,0 +1,30 @@
+package mvc.user.dao;
+
+import java.util.List;
+
+import mvc.user.model.po.User;
+
+public interface UserDao {
+	int addUser(User user);
+
+	int updateUser(Integer id, User user);
+
+	int deleteUser(Integer id);
+
+	User getUserById(Integer id);
+
+	List<User> findAllUsers();
+	/*
+	 * SQL language
+	 * -- 性別統計
+	 * 
+	 * SELECT gender_id, count(gender_id) as count FROM user group by gender_id;
+	 * 
+	 * -- 學歷統計
+	 * 
+	 * SELECT education_id, count(education_id) as count FROM user group by
+	 * education_id;
+	 * 
+	 */
+
+}

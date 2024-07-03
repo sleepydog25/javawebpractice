@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+<link rel="stylesheet" href="./css/buttons.css"> </link>
+<title>My BMR calculator</title>
+</head>
+
+<body style="padding: 15px">
+<!-- 		write an BMR calculator with name age height and weight 
+		Male BMR = 66+(13.7*kg)+(5+height)-(6.8*age)
+		Female BMR =  665+(9.6*kg)+(1.8+height)-(4.7*age)  -->
+		<h2>Enter your height, weight, name, gender</h2>
+		<form class="pure-form" action="http://localhost:8080/test/servlet/bmr" method = "post" target="result">
+    	<fieldset>
+    		<legend>BMR Calculator </legend>
+    		Name:<input type="text" id="userName" name="userName" placeholder="Please enter your name" required><p>
+    		Age:<input type="number" id="userAge" name="userAge" placeholder="Please enter your age (0-900)" required min="1" max="900"><p>
+    		Height:<input type="number" id="userHeight" name="userHeight" placeholder="Please enter your height in centimeter(30-500)" required min="30" max="500"><p>
+    		Weight:<input type="number" id="userWeight" name="userWeight" placeholder="Please enter your Weight in Kilograms(0-500)" required min="0" max="500"><p>
+    		Sex:
+    		<input type="radio" id="userSex" name="userSex" value="Male"  checked>Male
+    		<input type="radio" id="userSex" name="userSex" value="Female" > Female<p>
+    		<button type="reset" class="pure-button">Reset</button>
+    		<button type="submit" class="pure-button pure-button-primary">Submit</button>
+    		<a href = "/test/servlet/bmr" class="button-success pure-button">Store</a>
+    	</fieldset>
+    </form>
+    <iframe id="result" name="result"  frameborder="0"></iframe>
+</body>
+</html>

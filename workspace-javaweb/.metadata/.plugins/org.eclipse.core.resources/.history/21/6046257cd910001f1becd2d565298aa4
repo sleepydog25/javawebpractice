@@ -1,0 +1,25 @@
+package mvc.user.model.dto;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+import mvc.user.model.po.Education;
+import mvc.user.model.po.Gender;
+import mvc.user.model.po.Interest;
+
+public class UserDto {
+	public class User {
+		private Integer id; // 序號
+		private String name; // 姓名
+		private Integer age; // 年齡
+		@DateTimeFormat(pattern = "yyyy-MM-dd") // 日期格式
+		private Date birth; // 生日
+		private String resume; // 履歷
+		private Education educationId; // 教育程度 id
+		private Gender genderId; // 性別 id
+		private List<Interest> interestIds; // 興趣列表
+
+	}
+}

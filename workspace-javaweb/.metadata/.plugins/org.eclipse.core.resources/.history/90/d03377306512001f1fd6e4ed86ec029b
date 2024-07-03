@@ -1,0 +1,5 @@
+package mvc.user.model.response;
+
+public class ApiResponse {
+
+}
